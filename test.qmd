@@ -11,6 +11,6 @@ six <- 3+3
 
 ```{r}
 # Team member 2
-This is my serious comment.
-Get outta here Nicole!
+# This is my serious comment.
+# Get outta here Nicole!
 ```
