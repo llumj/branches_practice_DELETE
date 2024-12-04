@@ -5,9 +5,10 @@ library(tidyverse)
 
 
 ```{r}
-six <- 3+3
+starwars %>% filter(species == 'Human') %>% 
+ggplot(aes(x = sex, y = height)) + 
+geom_point()
 ```
-
 
 ```{r}
 # Team member 2
