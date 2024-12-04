@@ -13,4 +13,9 @@ six <- 3+3
 # Team member 2
 # This is my serious comment.
 # Get outta here Nicole!
+
+starwars %>%
+    filter(names == "Luke Skywalker") %>%
+    ggplot(aes(x = height, y = mass)) +
+    geom_point()
 ```
