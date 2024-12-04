@@ -10,5 +10,14 @@ six <- 3+3
 
 
 ```{r}
+starwars %>%  filter(species == 'Human') %>% 
+  ggplot(aes(x=height, y=mass)) +
+  geom_point(color = 'hotpink',
+  size = 8,
+  alpha = 0.5) 
+
+```
+```{r}
 # Team member 2
+
 ```
